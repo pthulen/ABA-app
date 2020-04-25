@@ -41,11 +41,15 @@ class Behaviors extends Component {
     render() {
         return (
             <div>
+                <div>
                 <BehaviorCount resOne={this.state.resOne} resTwo={this.state.resTwo} resThree={this.state.resThree} />
                 <button onClick={this.increaseBxOne}>Response 1</button>
                 <button onClick={this.increaseBxTwo}>Response 2</button>
                 <button onClick={this.increaseBxThree}>Response 3</button>
-                <button onClick={this.reset}>Reset Behaviors</button>
+                </div>
+                <di>
+                <button className="reset" onClick={this.reset}>Reset Behaviors</button>
+                </di>
             </div>
         );
     }

@@ -1,3 +1,27 @@
+.behaviors-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.25em;
+}
+.reset {
+  margin-top: 3em;
+}
+.behaviors-count p {
+  margin: 1em;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +38,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2d2d2d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

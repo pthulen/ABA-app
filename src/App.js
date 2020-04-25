@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <h3>The ABA App</h3>
-        <p>Time</p>
+        <p>Timer</p>
         <TimerControls />
+        <p>Behaviors</p>
         <Behaviors />
       </header>
     </div>
