@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TimerControls from './TimerControls';
+import Behaviors from './Behaviors';
 
 function App() {
   return (
@@ -11,14 +12,7 @@ function App() {
         <h3>The ABA App</h3>
         <p>Time</p>
         <TimerControls />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Behaviors />
       </header>
     </div>
   );
