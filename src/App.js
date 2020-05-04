@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3>The ABA App</h3>
-        <p>Timer</p>
-        <TimerControls />
         <p>Behaviors</p>
         <Behaviors />
+        <p>Timer</p>
+        <TimerControls />
       </header>
     </div>
   );

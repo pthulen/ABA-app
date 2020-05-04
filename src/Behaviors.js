@@ -43,9 +43,9 @@ class Behaviors extends Component {
             <div>
                 <div>
                 <BehaviorCount resOne={this.state.resOne} resTwo={this.state.resTwo} resThree={this.state.resThree} />
-                <button onClick={this.increaseBxOne}>Response 1</button>
-                <button onClick={this.increaseBxTwo}>Response 2</button>
-                <button onClick={this.increaseBxThree}>Response 3</button>
+                <button id="resOne" onClick={this.increaseBxOne}>Response 1</button>
+                <button id="resTwo" onClick={this.increaseBxTwo}>Response 2</button>
+                <button id="resThree" onClick={this.increaseBxThree}>Response 3</button>
                 </div>
                 <di>
                 <button className="reset" onClick={this.reset}>Reset Behaviors</button>
